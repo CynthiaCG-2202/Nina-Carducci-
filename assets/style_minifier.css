@@ -278,6 +278,21 @@ form textarea {
     font-size: 1.2em
 }
 
+.visually-hidden-wave {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  color: #000 !important; 
+  background: #fff !important;
+}
+
+
 input[type=submit] {
     background-color: #beb45a;
     padding: .5em 1em
