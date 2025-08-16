@@ -1,6 +1,7 @@
 .w-100 {
     object-fit: cover;
     height: 500px;
+    width: 1500px;
 }
 
 .nav a,
@@ -96,6 +97,15 @@ body {
 
 .nav a {
     text-decoration: none
+}
+
+#carouselExampleIndicators {
+    min-height: 600px;
+}
+
+#carouselExampleIndicators img {
+    width: 100%;
+    height: auto;
 }
 
 .social-link img {
@@ -279,17 +289,17 @@ form textarea {
 }
 
 .visually-hidden-wave {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-  clip: rect(0 0 0 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
-  color: #000 !important; 
-  background: #fff !important;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0 0 0 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    color: #000 !important;
+    background: #fff !important;
 }
 
 
